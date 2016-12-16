@@ -2,9 +2,12 @@ package cn.qs.masterwork;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import org.junit.Test;
 
-public class Test {
-    public static void main(String[] args) {
+public class TestCase {
+
+    @Test
+    public void testMasterWorker(){
         //构建任务list
         List<Object>myTaskList = new ArrayList<Object>();
         for(int i =0;i<10;i++){
